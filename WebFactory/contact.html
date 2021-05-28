@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebFactory | Contacto</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <h2>WebFactory</h2>
+            <h4>Creación, mantenimiento, seguridad, posicionamiento, diseño.</h4>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="articles.html">Articulos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="mailto:tarea2@foc.es">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <label for="nombre">Nombre:</label><input type="text" placeholder="Introduce tu nombre" name="nombre" id="nombre" required autofocus>
+                <label for="apellidos">Apellidos:</label><input type="text" placeholder="Introduce tus apellidos" name="apellidos" id="apellidos" required>
+                <label for="edad">Edad:</label><input type="number" placeholder="Introduce tu edad" min="0" step="1" name="edad" id="edad">
+                <label for="email">Email:</label><input type="email" placeholder="Introduce tu email" name="email" id="email" required>
+                <label for="textarea">Motivo de contacto:</label><textarea cols="50" name="texto" rows="5" id="textarea">Estoy interesado en WebFactory</textarea>
+                <div class="botones">
+                    <input type="submit" value="Enviar" class ="boton">
+                    <input type="reset" value="Limpiar" class ="boton">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>Daniel Miranda Torres | 26819001N</footer>
+</body>
+</html>

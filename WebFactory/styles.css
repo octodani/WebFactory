@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+      min-height: 100%;
+  }
+
+  body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }  
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header h2 {
+    width: fit-content;
+}
+
+header h4 {
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+.cabecera {
+    display: flex;
+    color: lightslategray;
+    padding-left: 10px;
+    opacity: 1;
+}
+
+header ul {
+    display: inline-block;
+    min-width: 300px;
+    padding-right: 10px;
+}
+
+header li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    border: 1px solid lightslategray;
+    padding: 10px;
+    width: 120px;
+    background-color: rgba(119, 136, 153, 0.534);
+}
+
+a {
+    color: seashell;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black;
+    background-color: lightslategray;
+}
+
+header li:hover {
+    background-color: lightslategray;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    background-image: url(Imagenes/fondos-abstractos-para-paginas-web-para-fondo-celular-en-hd-12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    width: 100%;
+}
+
+img {
+    max-width: 90%;
+    max-height: 500px;
+}
+
+.banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.mision {
+    width: 70%;
+    border: 2px solid black;
+    background-color: rgba(245, 245, 245, 0.55);
+    border-radius: 10px;
+    color: black;
+    padding: 30px;
+}
+
+.mision p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.localizacion {
+    padding: 50px;
+}
+
+.localizacion div {
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 400px;
+}
+
+.localizacion div h3, .localizacion div p {
+    padding: 10px;
+}
+
+article {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+article p {
+    text-align: justify;
+}
+
+article p, article h3, article .fecha_articulo {
+    padding: 10px;
+}
+
+.titulo_articulo {
+    font-size: 30px;
+}
+
+.fecha_articulo {
+    color: gray;
+}
+
+form {
+    margin: 40px;
+    width: 70%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+fieldset input, fieldset label, textarea {
+    padding: 10px;
+    width: 600px;
+}
+
+fieldset label {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.botones {
+    display: inline-block;
+    margin: 30px
+}
+
+.boton {
+    margin: 20px;
+    width: 280px;
+}
+
+footer {
+    padding: 20px;
+    width: 100%;
+    border-top: 1px solid seashell;
+    font-family: 'Lucida Console';
+    color: lightgreen;
+}
